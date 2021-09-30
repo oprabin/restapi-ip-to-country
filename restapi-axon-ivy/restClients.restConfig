@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<restClients>
+    <restClient>
+        <uuid>39bf0f21-d398-4dda-a622-491a490b7559</uuid>
+        <name>rest-for-ip-to-country</name>
+        <configuration>
+            <uri>https://freegeoip.app/json</uri>
+            <property>
+                <name>JSON.Deserialization.FAIL_ON_UNKNOWN_PROPERTIES</name>
+                <value>false</value>
+                <password>false</password>
+            </property>
+            <feature>
+                <class>ch.ivyteam.ivy.rest.client.mapper.JsonFeature</class>
+            </feature>
+        </configuration>
+    </restClient>
+</restClients>

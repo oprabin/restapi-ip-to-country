@@ -1,0 +1,6 @@
+output_country_nameData #class
+restapi.axon.ivy.output_country_name #namespace
+ip_adress String #field
+ip_adress PERSISTENT #fieldModifier
+country String #field
+country PERSISTENT #fieldModifier

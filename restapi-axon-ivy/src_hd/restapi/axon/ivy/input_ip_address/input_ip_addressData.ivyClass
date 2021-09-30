@@ -1,0 +1,4 @@
+input_ip_addressData #class
+restapi.axon.ivy.input_ip_address #namespace
+ip_adress String #field
+ip_adress PERSISTENT #fieldModifier

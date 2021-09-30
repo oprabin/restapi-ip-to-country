@@ -1,0 +1,11 @@
+version: '3.7'
+
+#upgrade version? research needed for seamless transition.
+
+services:
+  ivy:
+    container_name: restapi-axon-ivy-container
+    image: restapi-axon-ivy-image:latest
+    ports:
+     - 8081:8080
+
